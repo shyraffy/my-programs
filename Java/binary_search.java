@@ -2,8 +2,10 @@
 // Recursive and iterative implementation of the binary search algorithm in Java
 
 public class BinarySearch {
+	
 	public static int binarySrch(int[] v, int t){
-		int left = 0;
+		
+	    int left = 0;
 	    int right = v.length - 1;
 	    int m;
 	    int result = -1;
